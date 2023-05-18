@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="movie-container">
+        <label for="">ເລືອກ Movie :</label>
+        <select name="" id="movie">
+            <option value="25000">ລວມພົນນັກສູ້ພິທັກຈັກກະວານ 3 | ₭25.000</option>
+            <option value="55000">ເຊນເຊຍ່າ ກຳເນີດອັດສະວິນຈັນທາ | ₭55.000</option>
+            <option value="40000">ຊຽນຫຼັ່ງ ເດິມູວີ | ₭40.000</option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>ວ່າງ</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>ທີ່ນັ່ງຂອງເຮົາ</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>ບໍ່ຫ່ວາງ</small>
+        </li>
+    </ul>
+
+    <div class="container">
+        <div class="screen"></div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+    </div>
+
+    <p class="text">ເລືອກຈຳນວນ
+        <span id="count">0</span> ບ່ອນນັ່ງ
+        ຍອດຊຳລະເງິນ <span id="total">0</span> ກີບ
+    </p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
